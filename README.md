@@ -3,7 +3,7 @@
 Credit Card is a library for adding credit cards
 to any project.
 
-```rust
+```rust,norun
 use crate::credit_card::CreditCard;
 
 let mut cc = CreditCard {
