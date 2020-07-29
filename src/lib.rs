@@ -1,8 +1,11 @@
+#![warn(warnings)]
+#![allow(clippy::needless_doctest_main, clippy::type_complexity)]
+
 //! Credit Card is a library for adding credit cards
 //! to any project.
 //!
 //! ```rust,no_run
-//! use credit_card::CreditCard;
+//! use crate::credit_card::CreditCard;
 //!
 //! let mut cc = CreditCard {
 //!     number: "4111111111111111".to_string(),
@@ -43,7 +46,7 @@ mod credit_card;
 extern crate lazy_static;
 
 // re-export CreditCard
-pub use credit_card::CreditCard;
+pub use self::credit_card::CreditCard;
 
 #[cfg(test)]
 mod tests {
