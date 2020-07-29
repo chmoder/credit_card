@@ -3,8 +3,13 @@
 Credit Card is a library for adding credit cards
 to any project.
 
+#### add credit_card as a dependency to Cargo.toml 
+```toml
+credit_card = "0.1.1"
+```
+
 ```rust,norun
-use crate::credit_card::CreditCard;
+use credit_card::CreditCard;
 
 let mut cc = CreditCard {
     number: "4111111111111111".to_string(),

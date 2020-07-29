@@ -5,7 +5,7 @@
 //! to any project.
 //!
 //! ```rust,no_run
-//! use crate::credit_card::CreditCard;
+//! use credit_card::CreditCard;
 //!
 //! let mut cc = CreditCard {
 //!     number: "4111111111111111".to_string(),
