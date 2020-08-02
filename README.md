@@ -5,7 +5,7 @@ to any project.
 
 #### add credit_card as a dependency to Cargo.toml 
 ```toml
-credit_card = "0.1.1"
+credit_card = "0.1.3"
 ```
 
 ```rust,norun
