@@ -26,7 +26,6 @@ impl CreditCard {
     pub fn apply_brand(&mut self) {
         match Validate::from(self.number.clone().as_str()) {
             Ok(result) => {
-                println!("Card type is: {}", result.card_type.name());
                 self.brand = Option::from(result.card_type.name());
             },
             Err(err) => println!("Card is invalid: {:?}", err)
