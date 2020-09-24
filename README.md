@@ -3,7 +3,7 @@
 Credit Card is a library for adding credit cards
 to any project.
 
-![Criterion](https://img.shields.io/criterion/chmoder/credit_card)
+[![Criterion](https://img.shields.io/criterion/chmoder/credit_card)](https://criterion.dev)
 
 #### add credit_card as a dependency to Cargo.toml 
 ```toml
